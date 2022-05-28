@@ -1,0 +1,314 @@
+@media (max-width: 1200px) {
+
+/* header */
+
+.head-wrapper .navbar .my-navbar{
+
+    align-items: center;
+}
+
+.head-wrapper .navbar .nav-link{
+
+    font-size: 0.875;
+    padding: 0;
+}
+
+/* button */
+.head-wrapper .navbar .my-navbar .main-btn{
+
+    font-size: 0.875;
+
+
+}
+
+.booking-area{
+    padding: 3rem 0.5rem !important;
+    width: 90%;
+}
+
+
+.about-wrapper{
+
+    padding-top: 9rem !important;
+}
+
+.room-items .room-content{
+
+    padding: 1rem 0.875rem ;
+    top: 5% ;
+
+}
+
+.room-items .room-content h5{
+
+    font-size: 1rem ;
+    padding: 0;
+    
+}
+
+
+.room-items .room-content p{
+
+    font-size: 0.725rem ;
+    margin: 0.25rem ;
+    line-height: 1.2rem;
+    
+    
+}
+
+.room-items .room-content a{
+
+    font-size: 1rem ;
+    line-height: 0.85rem;
+    
+}
+
+
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+/* button */
+
+    .head-wrapper .navbar .my-navbar .main-btn{
+
+margin: 0.625rem;
+padding: 0 0.875rem;
+
+    }
+
+    /* header */
+
+    .head-wrapper .navbar .nav-link{
+
+        padding-bottom: 0.5rem;
+    }
+
+    /* utilities------- */
+    .header-scrolled{
+
+        height: auto;
+    }
+
+    /* banner................... */
+
+    .banner-wrapper{
+
+        height: 25.625rem !important;
+    }
+
+    .booking-area{
+        padding: 2rem 1.5rem !important;
+    }
+
+    .about-wrapper{
+
+        padding-top: 17.275rem !important;
+    }
+
+    /* .about-wrapper img{
+
+        padding: 2rem 0;
+    } */
+
+    .rooms-wrapper .room-items:hover .room-content .main-btn{
+
+        padding: 0.55rem 0.8rem;
+    }
+
+    .rooms-wrapper .room-items:hover .room-content{
+
+        padding: 0.5rem ;
+    }
+
+    
+    
+    .room-items .room-content h5{
+    
+        font-size: 0.875rem ;
+
+        
+    }
+    
+    
+    .room-items .room-content p{
+    
+        font-size: 0.525rem ;
+        margin: 0.7rem ;
+        line-height: 0.75rem;
+        
+        
+    }
+    
+    .room-items .room-content a{
+    
+        font-size: 0.875rem;
+        line-height: 0.65rem;
+        
+    }
+
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+
+      /* utilities------- */
+
+    h1{
+
+        font-size: 1.875rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    h3{
+
+        font-size: 1.75rem !important;
+        line-height: 2.1875rem !important;
+    }
+
+    h5{
+
+        font-size: 1.25rem !important;
+
+    }
+
+    
+    p{
+
+        font-size: 0.8125 !important;;
+        line-height: 1.5rem !important;
+
+    }
+
+    .rooms-wrapper .room-items:hover .room-content{
+    
+        top: 30% ;
+        left: 15%;
+        right: 15%;
+        padding: 5.5rem 4rem ;
+    
+    
+    }
+
+
+
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 469px){
+
+    .rooms-wrapper .room-items:hover .room-content{
+    
+       
+        padding: 1rem ;
+    
+    
+    }
+
+
+    
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 337px){
+
+    .rooms-wrapper .room-items:hover .room-content{
+    
+       
+        padding: 2rem 0;
+    
+    
+    
+    }
+
+    .room-items .room-content h5{
+        
+        font-size: 1.5rem !important;
+        margin-bottom: 2rem;
+        
+    }
+    
+    
+    .room-items .room-content p{
+    
+        display: none;
+        
+        
+    }
+    
+    .room-items .room-content a{
+
+        font-size: 1rem ;
+        line-height: 0.85rem;
+        
+    }
+
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1359px){
+
+.banner-wrapper .main-btn{
+
+    /* Check for availibility button................... */
+
+    font-size: 0.875;
+    line-height: 1.3rem;
+}
+
+}
+
+
+@media (max-width: 1723px){
+    .rooms-wrapper .room-items:hover .room-content{
+
+        top: 15%
+    }
+
+
+}
+
+
+@media (max-width: 1383px){
+    .rooms-wrapper .room-items:hover .room-content{
+
+        top: 5%;
+        padding: 1rem;
+    }
+    
+        
+        .room-items .room-content h5{
+        
+            font-size: 1.5rem;
+            
+        }
+        
+        
+        .room-items .room-content p{
+        
+            font-size: 1rem ;
+        }
+    }
+
+
+
+
+
+
+ 

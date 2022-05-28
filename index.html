@@ -1,0 +1,305 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Best Hotel</title>
+
+<!-- bootsrap link-------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- For Swiper Js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
+
+    <!-- custom CSS-------- -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- CDN link-------------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<!-- javaScript csutom link--------- -->
+<script defer src="/js/script.js"></script>
+
+  </head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+<!-- navbar----------------------------------------------------- -->
+<header class="head-wrapper">
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+      <img src="/images/logo.png" alt="My logo" class="img-fluid">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars navbar-toggler"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav my-navbar">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#rooms">Rooms</a>
+
+          <a class="nav-link" href="#gallery">Gallery</a>
+          <a class="nav-link" href="#price">Price</a>
+          <a class="nav-link" href="#team">Team</a>
+          <a class="nav-link" href="#blog">Blog</a>
+          <a class="nav-item main-btn mt=lg-0" href="#book-now">Book Now </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+</header>
+
+
+
+<!-- banner------------------------------------------- -->
+<section class="banner-wrapper" id="banner">
+<div class="swiper mySwiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide swiper-image" style="background-image: url(/images/slider/slider1.webp);">
+
+      <div class="swipper-texts">
+        <div>
+          <h1>Welcome to Nepal</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium perspiciatis ut quasi! Asperiores, atque hic.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="swiper-slide swiper-image" style="background-image: url(/images/slider/slider2.webp);">
+
+      <div class="swipper-texts">
+        <div>
+          <h1>Best Hotels in Nepal</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium perspiciatis ut quasi! Asperiores, atque hic.</p>
+        </div>
+      </div>
+
+      
+    </div>
+   
+  </div>
+
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+
+
+</div>
+
+<div class="contanier booking-area">
+
+  <div class="row">
+
+    <div class="col-lg mb-3 mb-lg-0">
+    
+      <input type="date" class="form-control" placeholder="date">
+    
+
+    </div>
+
+    <div class="col-lg mb-3 mb-lg-0">
+      
+      <input type="date" class="form-control" placeholder="date">
+
+    </div>
+
+    <div class="col-lg mb-3 mb-lg-0">
+      <select class="form-select">
+
+        <option selected> Adult</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+
+    </div>
+
+
+    <div class="col-lg mb-3 mb-lg-0 text-center">
+      <select class="form-select">
+
+        <option selected>Children</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+
+    </div>
+    <div class="col-lg mb-3 mb-lg-0 text-center">
+      <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+   
+  </div>
+</div>
+</div>
+ 
+</section>
+
+
+<!-- --------------------banner section exit---------------------------------- -->
+
+<!-- About section--------------------------------- -->
+
+<section class="about-wrapper" id="about">
+
+  <div class="container">
+    <div class="row flex-lg-row flex-column-reverse">
+      <div class="col-lg-6 text-center text-lg-start">
+
+        <h3>Welcom to <span>Hotel <br class="d-none d-lg-block">
+        the Fantastic </span> for your weekend </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet explicabo dolores ipsum fugit iste hic deleniti sed maiores reiciendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga neque accusamus, consequuntur laudantium minus tempora dicta corporis in omnis nihil, magnam accusantium doloribus unde velit ducimus atque obcaecati voluptatibus!</p>
+        <a href="#" class="main-btn mb-4">Explore</a>
+
+
+      </div>
+
+
+      <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+
+        <img src="/images/about-img.svg" alt="about" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+<!-- --------------------About section exit---------------------------------- -->
+
+
+
+<!-- Room section starts----------------------------------- -->
+
+<section class="rooms-wrapper" id="rooms">
+
+<div class="container-fluid">
+
+  <div class="row">
+
+    <div class="col-sm-12 section-title text-center mb-5">
+
+      <h6>What can we do for you?</h6>
+      <h3>Our Favorite Rooms</h3>
+    </div>
+  </div>
+
+  <div class="row m-0">
+
+    <div class="col-md-4 mb-4 mb-lg-0 text-center">
+
+<div class="room-items">
+
+<img src="/images/room/room1.webp" class = "img-fluid" alt="rooms">
+
+<div class="room-item-wrap">
+  <div class="room-content">
+
+  <h5 class="text-white mb-lg-4 text-decoration-underline">Royal Suite</h5>
+  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae a assumenda eum totam minima nihil aut et.</p>
+  <p class="text-white fw-bold mt-lg-4"> $220 / Per Night</p>
+  <a class = "main-btn border-white text-white mt-lg-4" href="#">Book Now</a>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="col-md-4 mb-4 mb-lg-0 text-center">
+<div class="room-items">
+
+  <img src="/images/room/room2.webp" class = "img-fluid" alt="rooms">
+  
+  <div class="room-item-wrap">
+    <div class="room-content">
+  
+    <h5 class="text-white mb-lg-4 text-decoration-underline">Royal Suite</h5>
+    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae a assumenda eum totam minima nihil aut et.</p>
+    <p class="text-white fw-bold mt-lg-4"> $220 / Per Night</p>
+    <a class = "main-btn border-white text-white mt-lg-4" href="#">Book Now</a>
+  
+  </div>
+  </div>
+  
+  </div>
+  </div>
+
+  <div class="col-md-4 mb-4 mb-lg-0 text-center">
+
+  <div class="room-items">
+
+    <img src="/images/room/room3.webp" class = "img-fluid" alt="rooms">
+    
+    <div class="room-item-wrap">
+      <div class="room-content">
+    
+      <h5 class="text-white mb-lg-4 text-decoration-underline">Royal Suite</h5>
+      <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae a assumenda eum totam minima nihil aut et.</p>
+      <p class="text-white fw-bold mt-lg-4"> $220 / Per Night</p>
+      <a class = "main-btn border-white text-white mt-lg-4" href="#">Book Now</a>
+    
+    </div>
+    </div>
+    
+    </div>
+  </div>
+    
+
+  </div>
+  </div>
+
+
+
+
+
+</section>
+
+
+<!-- --------------------Room section exit---------------------------------- -->
+
+
+<!-- Service section starts------------------------------------------------- -->
+
+
+
+
+<!-- Swiper JS link--------------------------- -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- Bootsrap JS link------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>  
+</body>
+</html>
