@@ -141,6 +141,11 @@ line-height: 1.625rem;
 
 }
 
+li{
+
+    list-style: none;
+}
+
 .section-title::after{
 
     content: "" !important;
@@ -231,7 +236,9 @@ top: -30%;
 
 }
 
+
 /* banner--------------------------------------------- */
+
 
 .banner-wrapper{
 
@@ -295,7 +302,9 @@ z-index: 0;
     border: 0.0625rem solid var(--text-white);
 }
 
+
 /* date box--------------------------------------- */
+
 
 .booking-area{
     position: relative;
@@ -322,6 +331,7 @@ font-weight: 500;
 
 /* about section------------------------------------ */
 
+
 .about-wrapper{
 
     padding-top: 11.275rem;
@@ -329,7 +339,10 @@ font-weight: 500;
 }
 
 
+
 /* <!-- Room section starts----------------------------------- --> */
+
+
 
 .rooms-wrapper{
 
@@ -412,11 +425,276 @@ transition: all 0.5s ease-in 0s;
 }
 
 
+/* services------------------------------------------ */
+
+
+.service-item-wrap{
+
+    background-color: var(--bg);
+}
+
+
+.service-item-wrap .service-content ul li a{
+
+display: block;
+margin: 1.8rem 0;
+
+
+}
+
+.service-item-wrap .service-content .service-icon{
+
+    height: 5.265rem;
+    width: 5.625rem;
+    background-color: var(--bg2);
+    border-radius: 100%;
+    line-height:5.625rem;
+    text-align: center;
+    float: left;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    position: absolute;
+    
+    }
+
+    .service-item-wrap .service-content .service-icon:hover,
+    .service-item-wrap .service-content ul li a.active .service-icon
+    
+    {
+background-color: var(--primary-color);
+color: white;
+box-shadow: 0.125rem rgb( 34 30 31 / 40%);
+    }
+
+    .service-item-wrap .service-content ul li:nth-child(1){
+        margin-left: 0.525rem;
+    }  
+
+    .service-item-wrap .service-content ul li:nth-child(2){
+        margin-left: -2rem;
+    }  
+
+    .service-item-wrap .service-content ul li:nth-child(3){
+        margin-left: -4rem;
+    }
+
+    .service-item-wrap .service-content ul li:nth-child(4){
+        margin-left: -6rem;
+    }
+
+    
+    .service-item-wrap .service-content ul li a p,
+    .service-item-wrap .service-content ul li a h5{
+
+
+        padding-left: 6.75rem;
+        display: block;
+        text-align: left;
+    }
+
+    .service-item-wrap .service-content ul li a span{
+        color: #ed7966;
+    }
 
 
 
 
+/* -------------------counter---------------- */
 
 
 
+    .counter-wrapper{
+        background-image: url(/images/counter-bg.webp);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+padding: 2.125rem;
+text-align: center;
+position: relative;
+    }
 
+  
+
+    .counter-wrapper .container p, .counter-wrapper .container h2{
+        color: white;
+        font-weight: 400;
+        position: relative;
+        z-index: 3;
+    } 
+
+
+.counter-wrapper .container p{
+    font-size: 1.6rem;
+}
+
+.counter-wrapper .container::before{
+
+    position: absolute;
+    content: "";
+    background-color: black;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+
+}
+
+
+
+/* team-------------------------------------------------- */
+
+
+
+.team-wrapper .team-info{
+
+    text-align: center;
+   width: 100%;
+   height: 25%;
+   bottom: 0%;
+   padding: 2rem;
+   margin: 0 auto;
+    background-color: var(--primary-color);
+    position: absolute;
+
+}
+
+
+.team-wrapper .card{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.team-wrapper .team-info .social-network{
+
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    z-index: 9999;
+    display: flex;
+    background-color: var(--secondary-color);
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+
+}
+
+.team-wrapper .team-info:hover .social-network{
+
+    transform: translateY(0%);
+   -webkit-transform: translateY(0%);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+
+.team-wrapper .team-info .social-network a{
+    color: white;
+}
+
+.team-wrapper .team-info .social-network a:hover{
+    color: var(--primary-color)
+}
+
+
+
+/* gallery------------------------------------------------- */
+
+
+.gallery-wrapper {
+
+margin: 3rem;
+}
+
+.gallery-wrapper .gallery-items{
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.3);
+}
+
+.gallery-wrapper .gallery-items::before,
+.gallery-wrapper .gallery-items::after,
+.gallery-wrapper .gallery-items .gallery-content::before,
+.gallery-wrapper .gallery-items .gallery-content::after{
+
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+height: 50%;
+width: 50%;
+opacity: 0;
+background-color: rgba(0, 0, 0, 0.8);
+transition: all 0.5s ease 0s;
+-webkit-transition: all 0.5s ease 0s;
+z-index: 4;
+
+}
+
+.gallery-wrapper .gallery-items::before{
+
+    top: 50%;
+
+}
+
+.gallery-wrapper .gallery-items:hover::before{
+    top: 0%;
+    opacity: 1;
+}
+
+
+.gallery-wrapper .gallery-items:hover::after{
+    left: 50%;
+    opacity: 1;
+}
+
+.gallery-wrapper .gallery-items:hover .gallery-content::before{
+
+    top:50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.gallery-wrapper .gallery-items:hover .gallery-content::after{
+
+top:50%;
+opacity: 1;
+}
+
+
+/* price------------------------------------------------------------- */
+
+.pricing-wrapper .card:hover{
+
+    background-color: var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.pricing-wrapper .card:hover h5,
+.pricing-wrapper .card:hover p,
+.pricing-wrapper .card:hover h3{
+
+    color: white;
+}
+
+.pricing-wrapper .main-btn:hover{
+    color: var(--primary-text);
+    background-color: white;
+transition: all 0.3s ease-in-out;
+}

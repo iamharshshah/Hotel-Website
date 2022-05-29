@@ -32,6 +32,8 @@
     padding-top: 9rem !important;
 }
 
+
+/* rooms------------------------------------------------------- */
 .room-items .room-content{
 
     padding: 1rem 0.875rem ;
@@ -63,9 +65,41 @@
     
 }
 
+/* services---------------------------------------------- */
+
+.service-item-wrap .service-content ul li a{
+
+    margin: 0.8rem 0;
+    overflow: hidden;
+    
+    }
+
+    .service-item-wrap .tab-content img{
+        width: 100%;
+    }
 
 
+    /* ------------teams-------- */
+
+    .team-wrapper .team-info .social-network{
+        padding: 0.5rem 0;
+    }
+
+    .team-wrapper .team-info{
+
+        height: 35% !important;
+    }
+
+
+    /* prices------------------------------------------------------------- */
+
+    .pricing-wrapper .card{
+        padding: 0.5rem !important;
+    }
+
+   
 }
+
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
@@ -114,6 +148,8 @@ padding: 0 0.875rem;
         padding: 2rem 0;
     } */
 
+    /* rooms--------------------------------------------------------------- */
+
     .rooms-wrapper .room-items:hover .room-content .main-btn{
 
         padding: 0.55rem 0.8rem;
@@ -150,6 +186,38 @@ padding: 0 0.875rem;
         
     }
 
+    /* services---------------------------------------------- */
+
+
+    .service-item-wrap .service-content ul li:nth-child(1){
+        margin-left: 0rem !important;
+    }  
+
+    .service-item-wrap .service-content ul li:nth-child(2){
+        margin-left: 0rem !important;
+    }  
+
+    .service-item-wrap .service-content ul li:nth-child(3){
+        margin-left: 0rem !important;
+    }
+
+    .service-item-wrap .service-content ul li:nth-child(4){
+        margin-left: 0rem !important;
+    }
+
+    .service-item-wrap .service-content ul li a{
+
+        margin: 2.5rem 0 !important;
+        
+        }
+
+        /* teams-------------------------------------------- */
+
+        .team-wrapper .team-info{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
 
 }
 
@@ -196,8 +264,42 @@ padding: 0 0.875rem;
     
     }
 
+    /* counter------------------------------------- */
+
+    .counter-wrapper{
+
+padding-top: 5rem !important;
+    }
 
 
+    /* team------------------------------------ */
+
+    .team-wrapper .team-info h5
+   {
+        font-size: 1.7rem !important;
+    }
+
+    .team-wrapper .team-info p{
+        font-size: 1.2rem !important;
+}
+
+
+.team-wrapper .team-info{
+    height: 25% !important;
+}
+
+/* price-------------------------------------------------- */
+
+.pricing-wrapper .main-btn{
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+.pricing-wrapper .card{
+    width: 85%;
+    margin: 0 auto;
+}
 }
 /* ---------------------------------------------------------------------------------------------------------- */
 
