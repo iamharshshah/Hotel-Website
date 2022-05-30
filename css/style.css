@@ -698,3 +698,121 @@ opacity: 1;
     background-color: white;
 transition: all 0.3s ease-in-out;
 }
+
+
+
+/* blog----------------------------------------------------------------------- */
+
+.blog-wrapper{
+
+    margin-top: 3rem;
+    
+}
+
+.blog-wrapper .blog-content{
+
+    margin: -7rem 0 0 5rem;
+    box-shadow: 0.175rem 0.175rem 0.475rem rgb( 34 30 31 / 40%);
+    text-align: center;
+}
+
+/* slider for partners------------------------------------------------------ */
+
+.our-partner-slider{
+
+
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--bg);
+}
+
+
+/* contact---------------------------------------------------------------------- */
+
+.footer-wrapper{
+
+   padding-top: 3rem;
+   margin-top: 2rem;
+    background-color: var(--bg2);
+    overflow: hidden;
+}
+
+
+.footer-wrapper h5{
+
+    color: var(--primary-color)
+}
+
+
+.footer-wrapper p, .footer-wrapper a{
+    color: white;
+    padding: 0.5rem 0;
+    line-height: 2rem;
+
+}
+
+
+.footer-wrapper .form-group input{
+
+    color: white;
+}
+
+.footer-wrapper .form-group button{
+
+    background-color: var(--primary-color);
+}
+
+.footer-wrapper .form-group button:hover{
+
+    background-color: var(--primary-text);
+    transition: all 0.3s ease-in;
+
+}
+
+.footer-wrapper .link-widget a{
+    padding: 0.375rem !important;
+    position: relative;
+    padding-left: 1.2rem !important;
+}
+.footer-wrapper ul{
+    text-align: start;
+    padding: 0.5rem 0;
+}
+
+
+.footer-wrapper ul li a:hover{
+    color: #ed7966;
+}
+
+
+.footer-wrapper .link-widget a::before{
+content: "\f105";
+font-family: "Font Awesome 6 Free";
+position: absolute;
+font-weight: 900;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+
+
+}
+
+.footer-wrapper .link-widget a:hover{
+
+    margin-left: 1rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.footer-wrapper .social-network a{
+
+    padding: 0.5rem;
+    text-align: start;
+}
+
+
+.copyright-section{
+
+    text-align: center;
+}

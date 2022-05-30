@@ -77,3 +77,48 @@ counter("count4", 0, 3110, 3000);
 }); 
 
 
+// our partners slider-----------------------
+
+const swiper_partner = new Swiper('.our-partner', {
+  // Optional parameters
+  slidesPerView: 5,
+  spaceBetween: 30,
+  loop: true,
+
+ 
+
+  autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  },
+
+  breakpoints: {
+'991': {
+
+  slidesPerView: 5,
+  spaceBetween: 10,
+},
+
+'767': {
+
+  slidesPerView: 3,
+  spaceBetween: 10,
+},
+
+'300': {
+
+  slidesPerView: 2,
+  spaceBetween: 8,
+},
+
+'200': {
+
+  slidesPerView: 1.
+}
+
+
+  },
+
+
+
+});
